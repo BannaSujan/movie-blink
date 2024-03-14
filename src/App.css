@@ -79,7 +79,8 @@ Nav {
 }
 
 .navbar-nav {
-  background-color: #848385;
+  /* background-color: #848385; */
+  background-color: transparent;
   width:100%;
   height:75px;
   padding-top: 18px;
