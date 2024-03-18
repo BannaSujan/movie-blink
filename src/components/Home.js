@@ -16,9 +16,9 @@ export default function Home() {
   return (
     <div className='home-div'>
       <div class="home-content">
-        <h1 style={{fontWeight: '900', fontSize:'62px', textShadow:'1px 0 white, 0 2px white, 1px 0 white, 0 2px white'}}>Welcome to Movie Blink!!</h1>
-        <p style={{fontSize:'22px'}}>Discover Your Next Adventure: Endless Movies, Infinite Stories, One Click Away!</p>
-        <Button className='browse-button' variant="danger" onClick={routeChange}>Browse<FaArrowRight style={{marginLeft:'15px'}}/></Button>
+        <h1 style={{fontWeight: '900', fontSize:'62px', color:'white', textShadow:'1px 0 black, 0 2px black, 1px 0 black, 0 2px black'}}>Welcome to Movie Blink!!</h1>
+        <p style={{fontSize:'22px',color:'white'}}>Discover Your Next Adventure: Endless Movies, Infinite Stories, One Click Away!</p>
+        <Button className='browse-button' style={{background:'black',border:'none'}} onClick={routeChange}>Browse<FaArrowRight style={{marginLeft:'15px'}}/></Button>
       </div>
     </div>
   )

@@ -4,7 +4,6 @@ import Home from './components/Home'
 import BrowseMovie from './components/Browse';
 import Container from 'react-bootstrap/Container'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Linkedin from './Assets/linkedin.svg';
 import { FaSearch } from 'react-icons/fa';
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
               <FaSearch style={{marginRight:'5px'}}/>
               <input  className ='search-bar' placeholder='search here'/>
             </div>
-            <img src={Linkedin} alt='linked'/>
         </nav>
         
       </Container>

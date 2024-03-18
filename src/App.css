@@ -6,6 +6,7 @@
 
 .App {
   text-align: center;
+  background-color: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(89,0,0,1) 25%, rgba(0,0,0,1) 100%);
 }
 
 .navlink {
@@ -15,10 +16,20 @@
   padding-right: 20px;
   margin-right:10px;
   justify-content: center;
-  display: flex; 
+  display: block;
+  padding-top: 13px;
   align-items: center;
-  color:black;
+  color:white;
   font-weight: 600;
+}
+
+@media screen and (max-width: 600px){
+
+  .navlink {
+    float: none;
+    width: 100%;
+  
+  }
 }
 
 .navlink:hover {
@@ -53,14 +64,23 @@ Nav {
   left: 0;
   top: 0;
   width: 100%;
-  height: 960px;
-  opacity: 0.2;
+  height: 970px;
+  /* opacity: 0.2;
   background-image: url(../src/Assets/comic-bg.jpeg);
   background-repeat: no-repeat;
   background-position: 50% 0;
-  background-size: cover;
+  background-size: cover; */
+  background:linear-gradient(90deg,rgba(89,0,0,1) 0%, rgba(0,0,0,1) 100%);
   
+}
   
+.browse-info {
+  background:linear-gradient(90deg,rgba(89,0,0,1) 0%, rgba(0,0,0,1) 100%);
+  padding:50px
+}
+
+.browse-movie {
+  justify-content: center;
 }
 
 .home-content {
@@ -72,6 +92,7 @@ Nav {
 
 .browse-button {
   width:150px;
+  border-color: black;
 }
 
 .browse-button:hover {
@@ -80,18 +101,18 @@ Nav {
 
 .navbar-nav {
   /* background-color: #848385; */
-  background-color: transparent;
+  background-color: black;
   width:100%;
   height:75px;
   padding-top: 18px;
   z-index:100;
   top:0;
   position: fixed;
+  overflow: hidden;
 }
 
 .browse-info {
   padding-top: 100px;
-  background-color: red;
   height:100%
 }
 
@@ -103,10 +124,40 @@ Nav {
 }
 
 .search-bar:focus{
-  outline:none
+  outline:none;
+  color:white
 }
 
 .search-wrapper {
   margin-top: 9px;
   font-size: 18px;
+  color:white
 }
+
+.movieItems {
+  color:black;
+  margin-bottom: 20px;
+}
+
+.card-button {
+  color:black;
+  background: transparent;
+  border:none;
+}
+
+.card-button:hover{
+  transform: scale(1.1);
+}
+
+.movie-Card{
+  opacity: 1;
+}
+
+.movie-Card:hover{
+  opacity:0.8;
+  transform: scale(1.05);
+}
+
+/* .card-ratings{
+  height: 
+} */
