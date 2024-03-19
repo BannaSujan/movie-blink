@@ -137,6 +137,7 @@ Nav {
 .movieItems {
   color:black;
   margin-bottom: 20px;
+  border:none
 }
 
 .card-button {
@@ -158,6 +159,25 @@ Nav {
   transform: scale(1.05);
 }
 
-/* .card-ratings{
-  height: 
-} */
+.chip-button {
+  border: none;
+  border-radius: 16px;
+  padding: 8px 16px;
+  margin: 0 8px;
+  cursor: pointer;
+  font-size: 14px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+.chip-button:hover,
+.chip-button:focus,
+.chip-button.active {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.chip-container {
+  margin-bottom: 20px;
+}

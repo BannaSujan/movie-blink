@@ -21,6 +21,9 @@ export default function MovieCard(props) {
 
     const ImageURl = "https://image.tmdb.org/t/p/w500"
 
+    const r_date = new Date(props.release_date);
+    const movie_year = r_date.getFullYear()
+
     const getURL = () =>{
         return ImageURl + props.poster_path ;
     }
@@ -47,12 +50,12 @@ export default function MovieCard(props) {
     };
 
   return (
-    <Card style={{ width: '16rem', height:'100%',margin:'10px',display: 'flex',padding:'10px',background:'transparent'}} id={props.id} className='movie-Card'>
+    <Card style={{ width: '16rem', height:'100%',margin:'10px',display: 'flex',padding:'10px',background:'transparent',border:'none'}} id={props.id} className='movie-Card'>
       <Card.Img variant="top" src={getURL()} style={{border:'none'}}/>
       <Card.Body style={{color:'white'}}>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text>
-            {getRating()}
+            {getRating()} | {movie_year}
         </Card.Text>
         {renderRatings()}
       </Card.Body>
