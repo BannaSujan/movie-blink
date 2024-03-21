@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/movie-blink/static/css/main.d16b2091.css",
+    "main.js": "/movie-blink/static/js/main.e27adcd0.js",
+    "static/js/453.9f22cb0e.chunk.js": "/movie-blink/static/js/453.9f22cb0e.chunk.js",
+    "index.html": "/movie-blink/index.html",
+    "main.d16b2091.css.map": "/movie-blink/static/css/main.d16b2091.css.map",
+    "main.e27adcd0.js.map": "/movie-blink/static/js/main.e27adcd0.js.map",
+    "453.9f22cb0e.chunk.js.map": "/movie-blink/static/js/453.9f22cb0e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d16b2091.css",
+    "static/js/main.e27adcd0.js"
+  ]
+}
