@@ -2,7 +2,7 @@
 
 This is a react-app for displaying movies and Tv shows and also added search functionality to this app
 
-Demo link : 
+Demo link : https://bannasujan.github.io/movie-blink/
 
 Steps to replicate in your local system - 
 
