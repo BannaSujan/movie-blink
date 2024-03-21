@@ -17,7 +17,7 @@ function App() {
 
         <nav>
             <Link to="/" className="navlink">Home</Link>
-            <Link to="/browse" className="navlink">Browse</Link>
+            <Link to="/browse" className="navlink">Discover</Link>
             <SearchBar/>
         </nav>
         
